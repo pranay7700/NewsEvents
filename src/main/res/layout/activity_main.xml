@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#fff"
+    tools:context=".MainActivity"
+    >
+
+
+    <ImageView
+        android:id="@+id/IVloginimage"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:src="@drawable/vage_logo" />
+
+    <EditText
+        android:id="@+id/ETloginemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="EMAIL ID"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColorHint="#111"
+        android:layout_marginTop="40dp"
+        android:layout_centerInParent="true"
+        />
+    <EditText
+        android:id="@+id/ETloginpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="PASSWORD"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColorHint="#111"
+        android:layout_marginTop="30dp"
+        android:password="true"
+        android:layout_below="@+id/ETloginemail"
+        />
+
+
+    <Button
+        android:id="@+id/BTNlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/ETloginpassword"
+        android:layout_centerInParent="true"
+        />
+
+    <Button
+        android:id="@+id/BTNsignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIGNUP"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/BTNlogin"
+        android:layout_centerInParent="true"
+        />
+
+    <Button
+        android:id="@+id/BTNclear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/BTNsignup"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="CLEAR"
+        android:textSize="20dp"
+
+        />
+
+
+
+</RelativeLayout>

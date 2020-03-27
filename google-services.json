@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "328195448928",
+    "firebase_url": "https://news-n-events.firebaseio.com",
+    "project_id": "news-n-events",
+    "storage_bucket": "news-n-events.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:328195448928:android:bc84c530bfa3efef086305",
+        "android_client_info": {
+          "package_name": "com.vaagdevi.newsevents"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "328195448928-g0gvphd2irp66q8inb1caukv1gl51o1n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vaagdevi.newsevents",
+            "certificate_hash": "ed653819288d37d0dd5ee3d2b867c1c4e13da012"
+          }
+        },
+        {
+          "client_id": "328195448928-q2bg4n9ulgfjl7e64bls8u7r8a2rseda.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlpryI4DZ0zjgnZGPCzSB9KLagrSIMq10"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "328195448928-q2bg4n9ulgfjl7e64bls8u7r8a2rseda.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
